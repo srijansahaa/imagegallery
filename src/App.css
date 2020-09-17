@@ -1,0 +1,81 @@
+.my-div {
+  font-family: montserrat;
+}
+
+.navbar {
+  font-family: montserrat;
+  box-shadow: 0px 2px 12px black;
+}
+
+.nav-link {
+  margin-right: 50px;
+}
+
+.container-fluid {
+  font-family: montserrat;
+  margin: 0px;
+}
+
+.row-1 {
+  font-family: montserrat;
+  background-image: url('./assets/landing-png.png');
+  background-size: cover;
+  height: 600px;
+  color: white;
+  margin: 0px auto;
+}
+
+.landing-head {
+  font-size: 50px;
+  max-height: 50px;
+  margin-left: 290px;
+  padding-top: 120px;
+}
+
+.landing-description {
+  max-height: 50px;
+  margin-left: 300px;
+  padding-top: 70px;
+}
+
+.search-bar {
+  max-width: 800px;
+  margin-left: 300px;
+  padding-top: 50px;
+}
+
+.landing-description2 {
+  max-height: 50px;
+  margin-left: 300px;
+  padding-top: 10px;
+}
+/* 
+.tab-heads {
+  font-size: 30px;
+} */
+
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.final-iamges {
+  width: 30%;
+  margin: 5px;
+  /* box-shadow: 2px 2px 2px grey; */
+}
+
+.image-grid {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: minmax(50px, auto);
+}
+
+img{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
